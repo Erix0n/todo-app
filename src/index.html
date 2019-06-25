@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>&lt;/salt&gt; :: ToDo</title>
-  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <link rel="stylesheet" type="text/css" href="./style/todo.css" />
   <script defer src="./js/todo.js"></script>
 </head>
+
 <body>
-  <!-- Add your markup here -->
+  <main>
+    <div class="container">
+      <header>
+        <h1>ToDo App!</h1>
+      </header>
+      <div id="input-container">
+        <form id="task-form">
+          <label for="add-input">Add Item</label>
+          <input id="add-input" type="text" placeholder="Write new task here" required />
+          <button id="btn-add" class="btn-add" type="submit">Add</button>
+        </form>
+      </div>
+      <div id="incomplete-tasks-container">
+        <h3>Todo</h3>
+        <ul id="incomplete-tasks">
+        </ul>
+      </div>
+      <div id="completed-tasks-container">
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+        </ul>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
