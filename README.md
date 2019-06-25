@@ -38,9 +38,9 @@ You are free to add other functionality (as long as the requirements above are s
 * Use a consistent naming convention (e.g. don't mix camel case & hyphens)
 * Use semantic html (e.g use the form element)
 * Use a css reset or normalize (or sensible defaults for elements)
+__________________________________________________________________________________
+Screenshots from my app.
 
-Have fun!!
+Add button on hover:
 
-| ![Todo](todo.png) |
-|:---:|
-| Example of a todo app |
+Delete button on hover:
