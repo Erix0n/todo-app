@@ -42,5 +42,6 @@ ________________________________________________________________________________
 Screenshots from my app.
 
 Add button on hover:
-
+![alt text](add_hover.png)
 Delete button on hover:
+![alt text](delete_hover.png)
